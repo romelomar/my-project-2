@@ -1,74 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     outline: 0;
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
+
 .poppins {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* navbar releted styles */
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     margin: 0 120px;
     margin-top: 40px;
 }
-.title{
+
+.title {
     font-size: 1.6rem;
     font-weight: bold;
     color: #3A3A3A;
 }
-.nav-link{
+
+.nav-link {
     list-style: none;
     display: flex;
     align-items: center;
     gap: 60px;
 }
-.nav-btn{
+
+.nav-btn {
     font-size: 1rem;
     font-weight: 500;
     color: #3A3A3A;
 
 }
-.nav-link a{
+
+.nav-link a {
     text-decoration: none;
-    
+
 }
-.icon{
+
+.icon {
     font-size: 20px;
 }
+
 /* banner releted styles */
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     /* width: 582px;
     height: 270px; */
     margin-left: 120px;
-   
+
 }
-.banner-title{
+
+.banner-title {
     margin-top: 145px;
     font-size: 2.6rem;
     font-weight: bold;
     color: #3A3A3A;
 }
-.banner-description{
+
+.banner-description {
     width: 505px;
     font-size: 1rem;
     font-weight: 500;
     color: #3A3A3A;
     margin: 16px 0;
 }
-.banner-btn{
+
+.banner-btn {
     font-size: 1rem;
     font-weight: bold;
     width: 196px;
@@ -78,51 +88,68 @@ body {
     border-radius: 41px;
     padding: 10px 24px;
 }
-.btn-icon{
+
+.btn-icon {
     padding-left: 8px;
 }
-.bg-img{
+
+.bg-img {
     position: relative;
     left: 250px;
     bottom: -50px;
     z-index: 0;
 
 }
-.banner-img{
+
+.banner-img {
     position: relative;
     right: 225px;
     top: 20px;
-     z-index: 1;
+    z-index: 1;
 }
 
 /* ribbon styles */
-.ribbon{
+.ribbon {
     display: flex;
     justify-content: center;
     gap: 60px;
 
 
 }
-.ribbon-img{
+
+.ribbon-img {
     margin-top: 170px;
     margin-bottom: 100px;
 
 }
 
 /* product collection releted styles */
-.showcase-container{
+.showcase-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    
+
 }
-.collection-heading{
+
+.collection-heading {
     margin-bottom: 30px;
     text-align: center;
     font-size: 1.8rem;
     font-weight: 500;
     color: #3A3A3A;
 }
-.showcase{
+
+.showcase {
     width: 329px;
     height: 476px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+}
+.product-img{
+    margin-top: 17px;
+}
+.product-head {
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #18191F;
 }
