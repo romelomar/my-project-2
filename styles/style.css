@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.poppins {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* navbar releted styles */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 120px;
+    margin-top: 40px;
+}
+.title{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #3A3A3A;
+}
+.nav-link{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.nav-btn{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #3A3A3A;
+
+}
+.nav-link a{
+    text-decoration: none;
+    
+}
+.icon{
+    font-size: 20px;
+}
+/* banner releted styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    /* width: 582px;
+    height: 270px; */
+    margin-left: 120px;
+   
+}
+.banner-title{
+    margin-top: 145px;
+    font-size: 2.6rem;
+    font-weight: bold;
+    color: #3A3A3A;
+}
+.banner-description{
+    width: 505px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #3A3A3A;
+    margin: 16px 0;
+}
+.banner-btn{
+    font-size: 1rem;
+    font-weight: bold;
+    width: 196px;
+    background-color: #E02C6D;
+    color: white;
+    border: none;
+    border-radius: 41px;
+    padding: 10px 24px;
+}
+.btn-icon{
+    padding-left: 8px;
+}
+.bg-img{
+    position: relative;
+    left: 250px;
+    bottom: -50px;
+    z-index: 0;
+
+}
+.banner-img{
+    position: relative;
+    right: 225px;
+    top: 20px;
+     z-index: 1;
+}
+
+/* ribbon styles */
+.ribbon{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+}
+.ribbon-img{
+    margin-top: 170px;
+    /* margin-left: 60px; */
+    text-align: center;
+
+}
