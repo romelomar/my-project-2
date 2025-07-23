@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+
+.profile-image {
+    height: 150px;
+    width: 150px;
+    border-radius: 25%;
+    background-color: blue;
+    padding: 2px;
+}
+
+.profile-image .image-frame {
+    height: 100%;
+    color: #fff;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25%;
+    border: 2px solid red;
+}
